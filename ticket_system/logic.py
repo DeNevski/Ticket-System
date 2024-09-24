@@ -59,4 +59,4 @@ class TicketSystemLogic:
         if self._first is not None:
             return self._first.data
         
-        raise IndexError('The queue is empty')
+        is_empty()
